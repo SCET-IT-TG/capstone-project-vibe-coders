@@ -1,4 +1,4 @@
-# 🍽️ The Culinary Architect — Restaurant Management System
+# 🍽️ Swaad — Restaurant Management System
 
 A full-stack MERN application for restaurant management with role-based access control.
 
