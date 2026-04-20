@@ -36,8 +36,8 @@ export default function LoginPage() {
         <div style={{ position: 'relative' }}>
           <p style={{ fontSize: 12, letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.4)', marginBottom: 16 }}>Restaurant Management System</p>
           <h1 className="login-hero-title">
-            The Digital<br />
-            <span className="login-hero-accent">Maître D'</span>
+            Authentic<br />
+            <span className="login-hero-accent">Indian Restaurant</span>
           </h1>
           <p style={{ marginTop: 20, color: 'rgba(255,255,255,0.45)', fontSize: 15, fontStyle: 'italic', fontFamily: 'Cormorant Garamond, serif' }}>
             Orchestrating Excellence.
