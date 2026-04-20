@@ -24,7 +24,7 @@ app.use('/api/billing', require('./routes/billing'));
 app.use('/api/dashboard', require('./routes/dashboard'));
 app.use('/api/tables', require('./routes/tables'));
 
-app.get('/', (req, res) => res.json({ message: 'The Culinary Architect API Running' }));
+app.get('/', (req, res) => res.json({ message: 'The API is Running' }));
 
 app.use((err, req, res, next) => {
   console.error(err.stack);
