@@ -3,7 +3,7 @@ import API from '../utils/api';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 
-const EMOJIS = { starters: '🥗', mains: '🍖',breads: '🫓', desserts: '🍮', beverages: '🍷' };
+const EMOJIS = { starters: '🥗', mains: '🍽️',breads: '🫓', desserts: '🍮', beverages: '🍷' };
 
 export default function CustomerMenuPage() {
   const { user, logout } = useAuth();
@@ -63,7 +63,7 @@ export default function CustomerMenuPage() {
     <div style={{ background: '#f8fafc', minHeight: '100vh', paddingBottom: 80 }}>
       <div style={{ background: 'white', padding: '16px 20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '1px solid #e2e8f0', position: 'sticky', top: 0, zIndex: 50 }}>
         <div>
-          <div style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: '1.1rem', fontWeight: 600 }}>Swaad</div>
+          <div style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: '1.1rem', fontWeight: 600 }}> 🍛 Swaad</div>
           <div style={{ fontSize: 11, color: '#94a3b8' }}>Welcome, {user?.name}</div>
         </div>
         <div style={{ display: 'flex', gap: 8 }}>

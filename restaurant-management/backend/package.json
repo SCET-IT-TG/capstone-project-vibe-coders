@@ -1,7 +1,7 @@
 {
-  "name": "backend",
+  "name": "Swaad-backend",
   "version": "1.0.0",
-  "description": "Restaurant Management System Backend",
+  "description": "Swaad Restaurant Management System Backend",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

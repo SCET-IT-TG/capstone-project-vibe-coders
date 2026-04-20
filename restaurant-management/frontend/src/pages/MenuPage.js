@@ -3,7 +3,7 @@ import API from '../utils/api';
 import { useAuth } from '../context/AuthContext';
 
 const CATEGORIES = ['all', 'starters', 'mains','breads', 'desserts', 'beverages'];
-const EMOJIS = { starters: '🥗', mains: '🍖', breads: '🫓', desserts: '🍮', beverages: '🍷' };
+const EMOJIS = { starters: '🥗', mains: '🍽️', breads: '🫓', desserts: '🍮', beverages: '🍷' };
 
 export default function MenuPage() {
   const { user } = useAuth();

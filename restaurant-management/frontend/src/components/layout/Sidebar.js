@@ -36,7 +36,7 @@ export default function Sidebar() {
   return (
     <aside className="sidebar">
       <div className="sidebar-logo">
-         <span>Swaad</span>
+         <span> 🍛 Swaad</span>
       </div>
       <nav className="sidebar-nav">
         <div className="nav-section-title">Navigation</div>
