@@ -1,0 +1,10 @@
+const express = require('express');
+const router = express.Router();
+const { getStaff, createStaff, updateStaff, deleteStaff, getStaffStats } = require('../controllers/staffController');
+const { protect, authorize } = require('../middleware/auth');
+router.get('/', protect, authorize('admin'), getStaff);
+router.get('/stats', protect, authorize('admin'), getStaffStats);
+router.post('/', protect, authorize('admin'), createStaff);
+router.put('/:id', protect, authorize('admin'), updateStaff);
+router.delete('/:id', protect, authorize('admin'), deleteStaff);
+module.exports = router;
