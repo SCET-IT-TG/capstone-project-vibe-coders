@@ -1,0 +1,11 @@
+{
+  "name": "Swaad",
+  "version": "1.0.0",
+  "description": "Swaad - Restaurant Management System",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "start-backend": "cd backend && npm run dev",
+    "start-frontend": "cd frontend && npm start"
+  }
+}
